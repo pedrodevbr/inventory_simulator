@@ -1,6 +1,14 @@
-# Inventory Simulator
+# Inventory Simulator v2.0
 
-An interactive web application for simulating and learning inventory management concepts.
+An enhanced interactive web application for simulating and learning inventory management concepts.
+
+## What's New in v2.0
+
+- 🎮 Gamification system with levels and achievements
+- 🌐 Multi-language support (EN/ES/PT)
+- 📊 Enhanced visualizations
+- 🎯 Performance scoring system
+- ⚡ Improved code structure and organization
 
 ## Features
 
@@ -10,6 +18,11 @@ An interactive web application for simulating and learning inventory management 
 - Multi-language support (EN/ES/PT)
 - Gamification elements
 - Cost analysis and optimization
+
+## Version History
+
+- v2.0.0 - Current version with gamification and multi-language support
+- v1.0.0 - Initial release with basic simulation features
 
 ## Getting Started
 
@@ -22,17 +35,22 @@ An interactive web application for simulating and learning inventory management 
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/inventory-simulator.git
-cd inventory-simulator
+git clone https://github.com/pedrodev/inventory_simulator.git
+cd inventory_simulator
 ```
 
-2. Create and activate a virtual environment
+2. Switch to version 2 (optional)
+```bash
+git checkout v2-development
+```
+
+3. Create and activate a virtual environment
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 ```
 
-3. Install dependencies
+4. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```

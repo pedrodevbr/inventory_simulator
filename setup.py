@@ -1,8 +1,11 @@
 from setuptools import setup, find_packages
 
+with open("VERSION", "r") as f:
+    version = f.read().strip()
+
 setup(
     name="inventory-simulator",
-    version="1.0.0",
+    version=version,
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
@@ -13,10 +16,10 @@ setup(
     ],
     author="Your Name",
     author_email="your.email@example.com",
-    description="An interactive inventory management simulation tool",
+    description="An interactive inventory management simulation tool - Version 2.0",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/inventory-simulator",
+    url="https://github.com/pedrodev/inventory_simulator",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
